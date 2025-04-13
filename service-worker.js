@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cta-rafael-oliveira-web/precache-manifest.0d760dde6910b278116e866531b79248.js"
+  "/cta-rafael-oliveira-web/precache-manifest.9bb882fe0ca4e9586de860f09363cba2.js"
 );
 
 self.addEventListener('message', (event) => {
