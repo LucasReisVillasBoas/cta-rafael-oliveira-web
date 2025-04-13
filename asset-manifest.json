@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cta-rafael-oliveira-web/static/css/main.1ca73cf6.chunk.css",
+    "main.js": "/cta-rafael-oliveira-web/static/js/main.3b924004.chunk.js",
+    "main.js.map": "/cta-rafael-oliveira-web/static/js/main.3b924004.chunk.js.map",
+    "runtime-main.js": "/cta-rafael-oliveira-web/static/js/runtime-main.be1f0115.js",
+    "runtime-main.js.map": "/cta-rafael-oliveira-web/static/js/runtime-main.be1f0115.js.map",
+    "static/js/2.27505fc1.chunk.js": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js",
+    "static/js/2.27505fc1.chunk.js.map": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js.map",
+    "index.html": "/cta-rafael-oliveira-web/index.html",
+    "precache-manifest.0d760dde6910b278116e866531b79248.js": "/cta-rafael-oliveira-web/precache-manifest.0d760dde6910b278116e866531b79248.js",
+    "service-worker.js": "/cta-rafael-oliveira-web/service-worker.js",
+    "static/css/main.1ca73cf6.chunk.css.map": "/cta-rafael-oliveira-web/static/css/main.1ca73cf6.chunk.css.map",
+    "static/js/2.27505fc1.chunk.js.LICENSE.txt": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js.LICENSE.txt",
+    "static/media/bg.png": "/cta-rafael-oliveira-web/static/media/bg.4280ec4d.png",
+    "static/media/style.scss": "/cta-rafael-oliveira-web/static/media/cta-illustration.3ce357e7.svg",
+    "static/media/feature-tile-icon-01.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/logo.svg": "/cta-rafael-oliveira-web/static/media/logo.2810a88b.svg",
+    "static/media/rafa1.png": "/cta-rafael-oliveira-web/static/media/rafa1.8b6364f8.png",
+    "static/media/rafa2.png": "/cta-rafael-oliveira-web/static/media/rafa2.2a08432f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be1f0115.js",
+    "static/js/2.27505fc1.chunk.js",
+    "static/css/main.1ca73cf6.chunk.css",
+    "static/js/main.3b924004.chunk.js"
+  ]
+}
