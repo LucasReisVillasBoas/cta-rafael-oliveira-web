@@ -10,25 +10,30 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 
-// Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+const trackingId = process.env.REACT_APP_GA_CODE;
 
-const trackPage = page => {
-  ReactGA.set({ page });
-  ReactGA.pageview(page);
+if (trackingId) {
+  ReactGA.initialize(trackingId);
+}
+
+const trackPage = (page) => {
+  if (trackingId) {
+    ReactGA.set({ page });
+    ReactGA.pageview(page);
+  }
 };
 
 const App = () => {
-
   const childRef = useRef();
-  let location = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
     const page = location.pathname;
-    document.body.classList.add('is-loaded')
-    childRef.current.init();
+    document.body.classList.add('is-loaded');
+    if (childRef.current) {
+      childRef.current.init();
+    }
     trackPage(page);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
   return (
@@ -38,8 +43,9 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
         </Switch>
-      )} />
+      )}
+    />
   );
-}
+};
 
 export default App;
