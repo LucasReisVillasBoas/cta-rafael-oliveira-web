@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -130,20 +132,22 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            {/* <div className="split-item">
+            <div className="split-item">
               <div
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Parceria Exclusiva
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Treinos e Nutrição para Você!</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Agora, ao se inscrever no programa de treino, você pode contar
+                  também com um acompanhamento nutricional personalizado! Em
+                  parceria com nutricionista, oferecemos planos de alimentação
+                  que se ajustam aos seus objetivos, a um preço mais acessível.
+                  Não perca a oportunidade de potencializar seus resultados com
+                  uma abordagem completa!
                 </p>
               </div>
               <div
@@ -154,13 +158,34 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/rafael-e-nutricionista.png')}
                   alt="Features split 03"
                   width={528}
                   height={396}
                 />
               </div>
-            </div> */}
+            </div>
+          </div>
+          <div className="reveal-from-bottom" data-reveal-delay="600">
+            <ButtonGroup
+              style={{
+                width: '100%',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              <Button
+                tag="a"
+                color="primary"
+                wideMobile
+                style={{ width: '100%', maxWidth: '400px' }}
+                href="https://wa.me/5518996643867?text=Ol%C3%A1,%20desejo%20conhecer%20mais%20sobre%20a%20consultoria%20e%20nutrição!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Comece Sua Jornada de Transformação!
+              </Button>
+            </ButtonGroup>
           </div>
         </div>
       </div>

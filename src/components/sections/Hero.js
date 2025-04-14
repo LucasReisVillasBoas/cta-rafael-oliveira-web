@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
@@ -25,6 +25,17 @@ const Hero = ({
   ...props
 }) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // Função para atualizar a largura da janela
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const openModal = (e) => {
     e.preventDefault();
@@ -37,7 +48,6 @@ const Hero = ({
   };
 
   const outerClasses = classNames(
-    'hero section center-content',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -56,22 +66,34 @@ const Hero = ({
       {...props}
       className={outerClasses}
       style={{
-        backgroundImage: `url(${require('./../../assets/images/bg.png')})`,
-        backgroundPosition: 'center', // Centraliza a imagem
-        backgroundRepeat: 'no-repeat', // Impede a repetição
-        width: '100%', // Define a largura como 100%
+        backgroundImage:
+          windowWidth > 640
+            ? `url(${require('./../../assets/images/bg.png')})`
+            : 'none',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        width: '100%',
       }}
     >
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+            {windowWidth <= 640 && (
+              <div className="hero-image-mobile">
+                <Image
+                  src={require('./../../assets/images/rafael-oliveira.png')}
+                  alt="Imagem personalizada"
+                />
+              </div>
+            )}
             <h1
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              Transforme Seu Corpo e Sua Vida com{'    '}
+              Transforme Seu Corpo e Sua Vida com{' '}
               <span className="text-color-primary">
-                {'    '}Treinos Personalizados!
+                {' '}
+                Treinos Personalizados!
               </span>
             </h1>
             <div className="container-xs">
