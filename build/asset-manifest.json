@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/cta-rafael-oliveira-web/static/css/main.1ca73cf6.chunk.css",
-    "main.js": "/cta-rafael-oliveira-web/static/js/main.0b44ac8a.chunk.js",
-    "main.js.map": "/cta-rafael-oliveira-web/static/js/main.0b44ac8a.chunk.js.map",
-    "runtime-main.js": "/cta-rafael-oliveira-web/static/js/runtime-main.be1f0115.js",
-    "runtime-main.js.map": "/cta-rafael-oliveira-web/static/js/runtime-main.be1f0115.js.map",
-    "static/js/2.27505fc1.chunk.js": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js",
-    "static/js/2.27505fc1.chunk.js.map": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js.map",
-    "index.html": "/cta-rafael-oliveira-web/index.html",
-    "precache-manifest.217d7f7879a4d97f2a8747c1bf656d02.js": "/cta-rafael-oliveira-web/precache-manifest.217d7f7879a4d97f2a8747c1bf656d02.js",
-    "service-worker.js": "/cta-rafael-oliveira-web/service-worker.js",
-    "static/css/main.1ca73cf6.chunk.css.map": "/cta-rafael-oliveira-web/static/css/main.1ca73cf6.chunk.css.map",
-    "static/js/2.27505fc1.chunk.js.LICENSE.txt": "/cta-rafael-oliveira-web/static/js/2.27505fc1.chunk.js.LICENSE.txt",
-    "static/media/bg.png": "/cta-rafael-oliveira-web/static/media/bg.4280ec4d.png",
-    "static/media/style.scss": "/cta-rafael-oliveira-web/static/media/cta-illustration.3ce357e7.svg",
-    "static/media/feature-tile-icon-01.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-01.0f9928d7.svg",
-    "static/media/feature-tile-icon-02.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-02.bd39f304.svg",
-    "static/media/feature-tile-icon-03.svg": "/cta-rafael-oliveira-web/static/media/feature-tile-icon-03.66f37ba5.svg",
-    "static/media/logo.svg": "/cta-rafael-oliveira-web/static/media/logo.2810a88b.svg",
-    "static/media/rafa1.png": "/cta-rafael-oliveira-web/static/media/rafa1.8b6364f8.png",
-    "static/media/rafa2.png": "/cta-rafael-oliveira-web/static/media/rafa2.2a08432f.png"
+    "main.css": "./static/css/main.19e8f48d.chunk.css",
+    "main.js": "./static/js/main.a92a8dcf.chunk.js",
+    "main.js.map": "./static/js/main.a92a8dcf.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.516770c3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.516770c3.js.map",
+    "static/js/2.27505fc1.chunk.js": "./static/js/2.27505fc1.chunk.js",
+    "static/js/2.27505fc1.chunk.js.map": "./static/js/2.27505fc1.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.c4c7450502babc209ef1c40cde920994.js": "./precache-manifest.c4c7450502babc209ef1c40cde920994.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.19e8f48d.chunk.css.map": "./static/css/main.19e8f48d.chunk.css.map",
+    "static/js/2.27505fc1.chunk.js.LICENSE.txt": "./static/js/2.27505fc1.chunk.js.LICENSE.txt",
+    "static/media/bg.png": "./static/media/bg.4280ec4d.png",
+    "static/media/style.scss": "./static/media/cta-illustration.3ce357e7.svg",
+    "static/media/feature-tile-icon-01.svg": "./static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "./static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "./static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/logo.svg": "./static/media/logo.2810a88b.svg",
+    "static/media/rafa1.png": "./static/media/rafa1.8b6364f8.png",
+    "static/media/rafa2.png": "./static/media/rafa2.2a08432f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be1f0115.js",
+    "static/js/runtime-main.516770c3.js",
     "static/js/2.27505fc1.chunk.js",
-    "static/css/main.1ca73cf6.chunk.css",
-    "static/js/main.0b44ac8a.chunk.js"
+    "static/css/main.19e8f48d.chunk.css",
+    "static/js/main.a92a8dcf.chunk.js"
   ]
 }
